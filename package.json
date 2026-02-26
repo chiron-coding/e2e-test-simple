@@ -1,0 +1,16 @@
+{
+  "name": "e2e-test-simple",
+  "version": "1.0.0",
+  "description": "Minimal Node healthz API",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  }
+}
