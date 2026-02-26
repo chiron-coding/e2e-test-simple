@@ -1,5 +1,6 @@
 import express from 'express';
 
+// Minimal Node healthz API for E2E testing
 const app = express();
 const PORT = process.env.PORT || 3000;
 
